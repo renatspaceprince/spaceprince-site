@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poiret+One&display=swap');
+
+@mixin bg {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+@mixin mobile {
+  @media only screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin w1250 {
+  @media only screen and (max-width: 1250px) {
+    @content;
+  }
+}
+
+@mixin w900 {
+  @media only screen and (max-width: 900px) {
+    @content;
+  }
+}
+
+@mixin w550 {
+  @media only screen and (max-width: 550px) {
+    @content;
+  }
+}
+
+html,
+body {
+  font-family: $font-main;
+  color: $text-color;
+}
+
+a {
+  color: black;
+}
+
+h1 {
+  font-family: $font-title;
+  font-size: 65px;
+}
+
+p {
+  font-size: 22px;
+}
+
+button {
+  font-size: 22px;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  background-color: $bg-blue;
+
+  &--white {
+    background-color: $bg-white;
+  }
+}
+
+.container__wrapper {
+  position: relative;
+
+  height: 100vh;
+
+  max-width: 1785px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-title {
+  position: absolute;
+  left: 15px;
+  top: -10px;
+  color: $bg-blue;
+
+  &--white {
+    color: $bg-white;
+  }
+}
+
+.color {
+  background-color: $bg-white !important;
+}
+
+.none {
+  display: none !important;
+}

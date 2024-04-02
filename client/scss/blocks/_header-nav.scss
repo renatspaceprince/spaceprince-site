@@ -1,0 +1,45 @@
+.header {
+  &__nav {
+    height: 56px;
+  }
+
+  &__nav-list {
+    display: flex;
+    gap: 65px;
+    font-size: 20px;
+  }
+
+  &__nav-item {
+    position: relative;
+  }
+
+  &__nav-item:hover::before {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 1px;
+    content: '';
+    background-color: #474747;
+  }
+}
+
+.nav {
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    &__nav-list {
+      display: flex;
+      gap: 15px;
+      font-size: 15px;
+
+      p {
+        display: none;
+      }
+    }
+  }
+  .nav {
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,25 @@
+.contact {
+  &__wraper {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 40% 60%;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  @include w900 {
+    &__wraper {
+      // width: auto;
+      display: grid;
+      grid-auto-flow: row;
+      align-items: center;
+      height: 100vh;
+      justify-items: center;
+
+      grid-template-columns: none;
+    }
+  }
+}
