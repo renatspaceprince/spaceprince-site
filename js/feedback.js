@@ -13,7 +13,7 @@ const feedback = {
 
   async sendForm(formBody, success) {
     try {
-      const data = await fetch('/feedback', {
+      const data = await fetch(`${this.state.baseUrl}/feedback`, {
         method: 'POST',
 
         body: JSON.stringify(formBody),

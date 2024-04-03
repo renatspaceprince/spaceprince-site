@@ -1,0 +1,30 @@
+.price {
+  &__card-holder {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__desc {
+    position: absolute;
+    bottom: 10px;
+    left: 3px;
+  }
+
+  &__desc-text {
+    font-size: 16px;
+
+    // mobile({
+
+    // })
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .price {
+    &__desc-text {
+      font-size: 13px;
+    }
+  }
+}

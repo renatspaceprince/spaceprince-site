@@ -1,0 +1,10 @@
+//base
+@import './base/reset';
+@import './base/var';
+@import './base/_page-base';
+
+//blocks
+@import './blocks/portfolio/portfolio-page';
+@import './blocks/portfolio/portfolio-page-gallery';
+@import './base/page-base';
+@import './blocks/portfolio/footer';
