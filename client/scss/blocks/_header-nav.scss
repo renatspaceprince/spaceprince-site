@@ -21,6 +21,10 @@
     content: '';
     background-color: #474747;
   }
+
+  &__nav-link {
+    text-wrap: nowrap;
+  }
 }
 
 .nav {

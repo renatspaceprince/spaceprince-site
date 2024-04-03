@@ -60,6 +60,10 @@ button {
   min-height: 800px;
   width: 100%;
 
+  @include w900 {
+    min-height: 600px;
+  }
+
   &--white {
     background-color: $bg-white;
   }
@@ -91,9 +95,9 @@ button {
   }
 }
 
-.color {
-  background-color: $bg-white !important;
-}
+// .color {
+//   background-color: $bg-white !important;
+// }
 
 .none {
   display: none !important;
