@@ -254,8 +254,8 @@ button {
 
 @media only screen and (max-width: 768px) {
   .burger__nav-list {
-    height: 300px;
-    width: 180px;
+    height: 230px;
+    width: 160px;
     padding-left: 30px;
     display: flex;
     flex-direction: column;
@@ -319,7 +319,7 @@ button {
   }
   .header__text {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 40px;
   }
   .header__text-title {
     font-size: 25px;
@@ -589,8 +589,8 @@ button {
 
 @media only screen and (max-width: 768px) {
   .gallery {
-    grid-template-columns: repeat(3, 120px);
-    grid-auto-rows: 195px;
+    grid-template-columns: repeat(3, 105px);
+    grid-auto-rows: 170px;
     gap: 7px;
   }
   .gallery__img {
@@ -628,12 +628,12 @@ button {
 .price__desc-text {
   font-size: 16px;
 }
-
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .price__desc-text {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
+
 .price__card {
   background-color: #b5c6d1;
   display: flex;
@@ -724,6 +724,11 @@ button {
   font-size: 15px;
   padding: 0 10px 0 15px;
 }
+@media only screen and (max-width: 900px) {
+  .price__card-desc {
+    font-size: 14px;
+  }
+}
 
 .contact__wraper {
   width: 100%;
@@ -778,7 +783,7 @@ button {
   }
   .contact__cont-item {
     display: flex;
-    gap: 0px;
+    gap: 4px;
     padding-left: 0;
   }
   .contact__cont-text {
@@ -845,13 +850,18 @@ button {
 }
 .contact__feedback-btn {
   width: 140px;
-  margin: 0 120px;
   padding: 0 0 5px 0;
   border: 1px solid black;
   background-color: #fffef6;
 }
 .contact__feedback-btn:active {
   background-color: #b5c6d1;
+}
+@media only screen and (max-width: 900px) {
+  .contact__feedback-btn {
+    width: 120px;
+    font-size: 18px;
+  }
 }
 .contact__feedback-desc {
   font-size: 15px;
@@ -861,8 +871,8 @@ button {
   .contact__feedback {
     order: 1;
     width: 100%;
-    height: 650px;
-    margin-top: 40px;
+    height: 570px;
+    margin-top: 50px;
     border-left: none;
     display: grid;
     align-items: center;
@@ -870,12 +880,15 @@ button {
   }
   .contact__feedback-title {
     text-align: center;
-    font-size: 28px;
+    font-size: 23px;
   }
   .contact__feedback-list {
     display: grid;
     gap: 10px;
     margin-top: 0px;
+  }
+  .contact__feedback-text {
+    font-size: 18px;
   }
   .contact__feedback-inp {
     position: relative;
@@ -883,7 +896,7 @@ button {
     width: 100%;
     padding-left: 5px;
     border-bottom: 1px solid #000;
-    font-size: 19px;
+    font-size: 18px;
   }
   .contact__feedback-textarea {
     resize: none;
@@ -895,18 +908,10 @@ button {
     padding: 5px 5px;
   }
   .contact__feedback-textarea:focus {
-    border: 1px solid black;
-  }
-  .contact__feedback-btn {
-    margin: 0 120px;
-    padding: 0 0 5px 0;
-    border: 1px solid black;
-    background-color: #fffef6;
-  }
-  .contact__feedback-btn:active {
-    background-color: #b5c6d1;
+    border: none;
+    border-bottom: 1px solid black;
   }
   .contact__feedback-desc {
-    font-size: 15px;
+    font-size: 13px;
   }
 }/*# sourceMappingURL=main.css.map */

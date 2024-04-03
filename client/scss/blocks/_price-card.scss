@@ -99,5 +99,8 @@
   &__card-desc {
     font-size: 15px;
     padding: 0 10px 0 15px;
+    @include w900 {
+      font-size: 14px;
+    }
   }
 }

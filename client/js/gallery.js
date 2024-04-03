@@ -1,114 +1,114 @@
 const PORTFOLIO_CONFIG = {
   elena: {
-    path: './img/portfolio/elena',
+    path: '/img/portfolio/elena',
   },
   semenSimple: {
-    path: './img/portfolio/semenSimple',
+    path: '/img/portfolio/semenSimple',
   },
   simpleLovestory: {
-    path: './img/portfolio/simpleLovestory',
+    path: '/img/portfolio/simpleLovestory',
   },
   sweetWinter: {
-    path: './img/portfolio/sweetWinter',
+    path: '/img/portfolio/sweetWinter',
   },
   bloom: {
-    path: './img/portfolio/bloom',
+    path: '/img/portfolio/bloom',
   },
   basketball: {
-    path: './img/portfolio/basketball',
+    path: '/img/portfolio/basketball',
   },
   barbie: {
-    path: './img/portfolio/alisa-barbie',
+    path: '/img/portfolio/alisa-barbie',
   },
   amelie: {
-    path: './img/portfolio/amelie',
+    path: '/img/portfolio/amelie',
   },
   beautyred: {
-    path: './img/portfolio/beauty-red',
+    path: '/img/portfolio/beauty-red',
   },
   darkromance: {
-    path: './img/portfolio/dark-romance',
+    path: '/img/portfolio/dark-romance',
   },
   lookbookvosq: {
-    path: './img/portfolio/look-book-vosq',
+    path: '/img/portfolio/look-book-vosq',
   },
   bath: {
-    path: './img/portfolio/bath',
+    path: '/img/portfolio/bath',
   },
   buildingfashion: {
-    path: './img/portfolio/building-fashion',
+    path: '/img/portfolio/building-fashion',
   },
   cityrootLookbook: {
-    path: './img/portfolio/city-root-lookbook',
+    path: '/img/portfolio/city-root-lookbook',
   },
   cityrootsCampaign: {
-    path: './img/portfolio/cityroots-campaign',
+    path: '/img/portfolio/cityroots-campaign',
   },
   couple: {
-    path: './img/portfolio/couple',
+    path: '/img/portfolio/couple',
   },
   fiancee: {
-    path: './img/portfolio/fiancee',
+    path: '/img/portfolio/fiancee',
   },
   flowers: {
-    path: './img/portfolio/flowers',
+    path: '/img/portfolio/flowers',
   },
   flower: {
-    path: './img/portfolio/flowers-2',
+    path: '/img/portfolio/flowers-2',
   },
   lights: {
-    path: './img/portfolio/lights-2',
+    path: '/img/portfolio/lights-2',
   },
   mfkPomorie: {
-    path: './img/portfolio/mfk-pomorie',
+    path: '/img/portfolio/mfk-pomorie',
   },
   natureWedding: {
-    path: './img/portfolio/nature-wedding',
+    path: '/img/portfolio/nature-wedding',
   },
   party: {
-    path: './img/portfolio/party',
+    path: '/img/portfolio/party',
   },
   PKfood: {
-    path: './img/portfolio/pk-food',
+    path: '/img/portfolio/pk-food',
   },
   portraitKolya: {
-    path: './img/portfolio/portrait-kolya',
+    path: '/img/portfolio/portrait-kolya',
   },
   quarry: {
-    path: './img/portfolio/quarry',
+    path: '/img/portfolio/quarry',
   },
   schoolgirl: {
-    path: './img/portfolio/schoolgirl',
+    path: '/img/portfolio/schoolgirl',
   },
   simpleBarbie: {
-    path: './img/portfolio/simple-barbie',
+    path: '/img/portfolio/simple-barbie',
   },
   simpleKolya: {
-    path: './img/portfolio/simple-kolya',
+    path: '/img/portfolio/simple-kolya',
   },
   streetAnya: {
-    path: './img/portfolio/street-anya',
+    path: '/img/portfolio/street-anya',
   },
   streetKGD: {
-    path: './img/portfolio/street-kgd',
+    path: '/img/portfolio/street-kgd',
   },
   streetMatvey: {
-    path: './img/portfolio/street-matvey',
+    path: '/img/portfolio/street-matvey',
   },
   studentCouncil: {
-    path: './img/portfolio/student-council',
+    path: '/img/portfolio/student-council',
   },
   tarantino: {
-    path: './img/portfolio/tarantino',
+    path: '/img/portfolio/tarantino',
   },
   toIron: {
-    path: './img/portfolio/to-iron',
+    path: '/img/portfolio/to-iron',
   },
   weShouldAllBeFemenists: {
-    path: './img/portfolio/we-should-all-be-femenists',
+    path: '/img/portfolio/we-should-all-be-femenists',
   },
   elenaContent: {
-    path: './img/portfolio/elena-content',
+    path: '/img/portfolio/elena-content',
   },
 }
 
