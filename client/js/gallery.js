@@ -107,6 +107,9 @@ const PORTFOLIO_CONFIG = {
   weShouldAllBeFemenists: {
     path: './img/portfolio/we-should-all-be-femenists',
   },
+  elenaContent: {
+    path: './img/portfolio/elena-content',
+  },
 }
 
 document.addEventListener('DOMContentLoaded', function () {
