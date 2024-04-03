@@ -2,8 +2,6 @@ const feedback = {
   state: {
     form: document.querySelector('.contact__feedback-form'),
 
-    baseUrl: 'http://127.0.0.1:3000',
-
     failedFetchs: 0,
   },
 
@@ -13,7 +11,7 @@ const feedback = {
 
   async sendForm(formBody, success) {
     try {
-      const data = await fetch(`${this.state.baseUrl}/feedback`, {
+      const data = await fetch(`/feedback`, {
         method: 'POST',
 
         body: JSON.stringify(formBody),
