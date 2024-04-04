@@ -589,8 +589,8 @@ button {
 
 @media only screen and (max-width: 768px) {
   .gallery {
-    grid-template-columns: repeat(3, 105px);
-    grid-auto-rows: 150px;
+    grid-template-columns: repeat(3, 130px);
+    grid-auto-rows: 200px;
     gap: 7px;
   }
   .gallery__img {
