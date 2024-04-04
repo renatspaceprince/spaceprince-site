@@ -130,15 +130,11 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 async function fetchImages(path) {
-  const response = await fetch(path)
-  const html = await response.text()
+  const data = await fetch(`/read-folder?folder=${encodeURIComponent(path)}`)
+  const links = await data.json()
 
-  const parser = new DOMParser()
-
-  const doc = parser.parseFromString(html, 'text/html')
-  const links = doc.querySelectorAll('a[href$=".webp"]')
   const images = Array.from(links).map((link) => {
-    const href = link.getAttribute('href')
+    const href = `.${path}/${link}`
     const a = document.createElement('a')
     a.setAttribute('data-fancybox', 'gallery')
     a.setAttribute('href', href)
