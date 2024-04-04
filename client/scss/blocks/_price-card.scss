@@ -23,8 +23,8 @@
     max-height: 400px;
 
     @include w900 {
-      max-height: 300px;
-      gap: 3px;
+      max-height: 400px;
+      gap: 0;
     }
   }
 
@@ -66,7 +66,7 @@
     counter-reset: my-counter;
 
     @include w900 {
-      height: 220px;
+      height: 240px;
     }
   }
 
@@ -78,7 +78,7 @@
     padding-left: 1.5em;
 
     @include w900 {
-      font-size: 19px;
+      font-size: 18px;
     }
   }
 
@@ -105,7 +105,7 @@
     font-size: 15px;
     padding: 0 10px 0 15px;
     @include w900 {
-      font-size: 14px;
+      font-size: 13px;
     }
   }
 }
