@@ -653,11 +653,12 @@ button {
   justify-content: space-between;
   gap: 10px;
   height: 100%;
-  max-height: 401px;
+  max-height: 400px;
 }
 @media only screen and (max-width: 900px) {
   .price__card-content {
     max-height: 300px;
+    gap: 3px;
   }
 }
 .price__card-header {
@@ -692,6 +693,11 @@ button {
   padding: 0 0 0 5px;
   list-style: none;
   counter-reset: my-counter;
+}
+@media only screen and (max-width: 900px) {
+  .price__card-list {
+    height: 220px;
+  }
 }
 .price__card-text {
   font-size: 20px;
