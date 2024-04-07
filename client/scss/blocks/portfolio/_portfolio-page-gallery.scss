@@ -1,0 +1,112 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 280px);
+  grid-auto-rows: 400px;
+  gap: 25px;
+
+  &__img-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    outline: 3px solid $bg-white;
+  }
+
+  &__img-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease;
+  }
+
+  &__img-container:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  &__all-btn {
+    font-size: 21px;
+
+    text-align: center;
+    background-color: $bg-white;
+    padding: 2px 7px 5px 7px;
+  }
+
+  &__all-btn:hover {
+    outline: 1px solid black;
+  }
+
+  &__all-btn:active {
+    outline: 1px solid black;
+    background-color: $bg-blue;
+  }
+}
+
+@media only screen and (max-width: 1240px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    grid-auto-rows: 450px;
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 320px);
+    grid-auto-rows: 450px;
+    gap: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 190px);
+    grid-auto-rows: 270px;
+    gap: 10px;
+
+    &__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border: 2px solid $bg-white;
+      outline: 0;
+    }
+
+    &__all-btn {
+      font-size: 16px;
+
+      text-align: center;
+      background-color: $bg-white;
+      padding: 2px 7px 5px 7px;
+    }
+
+    &__all-btn:active {
+      outline: 0 solid black;
+      background-color: $bg-blue;
+    }
+
+    &__all-btn:hover {
+      outline: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 180px);
+    grid-auto-rows: 280px;
+    gap: 10px;
+  }
+}

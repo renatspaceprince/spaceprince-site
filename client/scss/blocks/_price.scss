@@ -1,0 +1,22 @@
+.price {
+  &__card-holder {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__desc {
+    position: absolute;
+    bottom: 10px;
+    left: 3px;
+  }
+
+  &__desc-text {
+    font-size: 16px;
+
+    @include w900 {
+      font-size: 12px;
+    }
+  }
+}

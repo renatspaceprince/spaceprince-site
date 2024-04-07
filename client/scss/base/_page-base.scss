@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poiret+One&display=swap');
+
+@mixin bg {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+html,
+body {
+  font-family: $font-main;
+  color: $text-color;
+}
+
+a {
+  color: black;
+}
+
+h1 {
+  font-family: $font-title;
+  font-size: 116px;
+}
+
+p {
+  font-size: 22px;
+}
+
+button {
+  font-size: 22px;
+}
+
+.page-container {
+  // поменял
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  background-color: $bg-blue;
+
+  &__wrapper {
+    position: relative;
+
+    height: 100%;
+    min-width: 100%;
+
+    max-width: 1785px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &--white {
+    background-color: $bg-white;
+  }
+}
+
+.page-title {
+  position: absolute;
+  left: 15px;
+  top: -30px;
+  color: $bg-blue;
+
+  &--white {
+    color: $bg-white;
+  }
+}
+
+.fancybox-image {
+  border: 3px solid $bg-white;
+  object-fit: cover;
+}
+
+.fancybox__backdrop {
+  --fancybox-bg: #b5c6d1;
+}
+
+.hide {
+  display: none;
+  // opacity: 1;
+  // animation-name: a1;
+  // animation-duration: 2s;
+  // animation-fill-mode: forwards;
+}
+
+// @keyframes a1 {
+//   to {
+//     opacity: 0;
+//     min-height: 0;
+//     min-width: 0;
+//     padding: 0;
+//     margin: 0;
+//     border: 0;
+//   }
+// }
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-family: $font-title;
+    font-size: 65px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  button {
+    font-size: 15px;
+  }
+
+  a {
+    color: black;
+  }
+
+  .container {
+    min-height: 100vh;
+    width: 100%;
+    background-color: $bg-blue;
+
+    &--white {
+      background-color: $bg-white;
+    }
+  }
+
+  .container__wrapper {
+    position: relative;
+
+    height: 100vh;
+    min-width: 100%;
+
+    max-width: 1785px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page-title {
+    position: absolute;
+    left: 15px;
+    top: -15px;
+    color: $bg-blue;
+
+    &--white {
+      color: $bg-white;
+    }
+  }
+
+  .none {
+    display: none !important;
+  }
+
+  .color {
+    background-color: $bg-white !important;
+  }
+}
